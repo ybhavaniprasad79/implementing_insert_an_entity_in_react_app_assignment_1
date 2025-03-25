@@ -3,6 +3,7 @@ import "./addBook.css"; // Import the CSS file
 import books from "../booksData";
 import { useNavigate } from "react-router-dom";
 
+
 const AddBook = () => {
 
     const navigate=useNavigate()
@@ -24,6 +25,8 @@ const AddBook = () => {
         id:books.length+1,
         ...formData,
      };
+
+    books.push(formData)
     console.log("New book added:", newBooks);
     setFormData({
       title: "",
