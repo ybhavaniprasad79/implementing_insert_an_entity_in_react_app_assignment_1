@@ -1,0 +1,61 @@
+/* Centering the form */
+.add-book-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1e1e1e; /* Dark mode background */
+    color: #f8f8f8; /* Light text */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Form styling */
+  .add-book-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Label styling */
+  .add-book-container label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  /* Input fields */
+  .add-book-container input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #444;
+    background-color: #2e2e2e;
+    color: #f8f8f8;
+    border-radius: 5px;
+  }
+  
+  /* Input placeholder */
+  .add-book-container input::placeholder {
+    color: #aaa;
+  }
+  
+  /* Image preview */
+  .add-book-container img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  /* Button styling */
+  .add-book-container button {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-book-container button:hover {
+    background-color: #4b00b5;
+  }
+  
